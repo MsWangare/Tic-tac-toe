@@ -1,1 +1,10 @@
 
+function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}const X = 'X';
+const O = 'O';
+
+
+const WINNING_PATTERNS = [
+7, 56, 448, // .horizontal.
+73, 146, 292, // .Vertical.
+273, 84 // .Aross.
+];
